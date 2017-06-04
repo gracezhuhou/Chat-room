@@ -1,0 +1,66 @@
+body{
+	background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1496470502&di=7a729ee66a46f6501b0e0ec9d6d9f923&src=http://tupian.sucaitianxia.com/images/004/pic3572.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	zoom: 120%;
+}
+
+header{
+	position: fixed;
+	top: 5%;
+	left:19%;
+}
+
+h1, h2{
+	color: gray;
+	text-align: center;
+}
+
+form{
+	position: absolute;
+	top: 65%;
+	left: 36%;
+	border: 5px;
+	border-style: solid;
+    border-radius: 0.5em;
+    border-color: transparent;
+	background: white;
+	box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+	opacity: 0.9;
+}
+
+a{
+	position: relative;
+	left: 2em;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+
+input{
+	border-radius: 0.5em;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 317311 */
+  src: url('http://at.alicdn.com/t/font_5kqa357slay5vcxr.eot');
+  src: url('http://at.alicdn.com/t/font_5kqa357slay5vcxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_5kqa357slay5vcxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_5kqa357slay5vcxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_5kqa357slay5vcxr.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	padding: 0 5px;
+    font-family:"iconfont" !important;
+    font-size: 40px;
+    line-height: 60px;
+    color: gray;
+    font-style:normal;
+    font-weight: normal; 
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.5px;
+    -moz-osx-font-smoothing: grayscale;
+}
